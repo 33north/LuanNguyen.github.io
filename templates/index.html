@@ -2,56 +2,13 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Lu's Website</title>
+    <title>Index</title>
   </head>
   <body>
-    <h1>Welcome To The Site Of The Past</h1>
-    <img src = "" alt = "(A picture needs to be here)">
+    <h1>Index</h1>
     <br>
-
-    <p>
-      Lu D Ng
-    </p>
-
-    <ul>
-      <li><a href = "https://github.com/33north" >Github</a></li>
-      <li><a href = "https://linkedin.com/in/luandacnguyen" >Linkedin</a></li>
-    </ul>
-    <br>
-
-    <table border = "1">
-      <thead>
-        <tr>
-          <th colspan = "4">Favorite Things</th>
-        </tr>
-        <tr>
-          <th>Movies</th>
-          <th>Music</th>
-          <th>Books</th>
-          <th>Activities</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Movie 1</td>
-          <td>Music 1</td>
-          <td>Book 1</td>
-          <td>Activity 1</td>
-        </tr>
-        <tr>
-          <td>Movie 2</td>
-          <td>Music 2</td>
-          <td>Book 2</td>
-          <td>Activity 2</td>
-        </tr>
-        <tr>
-          <td>Movie 3</td>
-          <td>Music 3</td>
-          <td>Book 3</td>
-          <td>Activity 3</td>
-        </tr>
-      </tbody>
-    </table>
+    <a class="nav-link" href="{{ url_for('home') }}">Home</a>
     <a class="nav-link" href="{{ url_for('about') }}">About</a>
+    <a class="nav-link" href="{{ url_for('index')}}">Index</a>
   </body>
 </html>
